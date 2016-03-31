@@ -1,0 +1,311 @@
+*** Md5VsSha256_Md5_Core ***
+* Raw *
+Pilot 1: 4 op, 246661 ns, 61.6653 us/op
+Pilot 2: 8 op, 125894 ns, 15.7368 us/op
+Pilot 3: 16 op, 243448 ns, 15.2155 us/op
+Pilot 4: 32 op, 483222 ns, 15.1007 us/op
+Pilot 5: 64 op, 963126 ns, 15.0488 us/op
+Pilot 6: 128 op, 1925884 ns, 15.0460 us/op
+Pilot 7: 256 op, 3851377 ns, 15.0444 us/op
+Pilot 8: 512 op, 7711730 ns, 15.0620 us/op
+Pilot 9: 1024 op, 18302893 ns, 17.8739 us/op
+Pilot 10: 2048 op, 33344573 ns, 16.2815 us/op
+Pilot 11: 4096 op, 63040016 ns, 15.3906 us/op
+Pilot 12: 8192 op, 125285547 ns, 15.2936 us/op
+Pilot 13: 16384 op, 249769056 ns, 15.2447 us/op
+IdleWarmup 1: 16384 op, 36344 ns, 2.2183 ns/op
+IdleWarmup 2: 16384 op, 33948 ns, 2.0720 ns/op
+IdleWarmup 3: 16384 op, 33941 ns, 2.0716 ns/op
+IdleWarmup 4: 16384 op, 33939 ns, 2.0715 ns/op
+IdleWarmup 5: 16384 op, 33946 ns, 2.0719 ns/op
+IdleWarmup 6: 16384 op, 33943 ns, 2.0717 ns/op
+IdleWarmup 7: 16384 op, 33946 ns, 2.0719 ns/op
+IdleWarmup 8: 16384 op, 33942 ns, 2.0717 ns/op
+IdleWarmup 9: 16384 op, 33939 ns, 2.0715 ns/op
+IdleWarmup 10: 16384 op, 33943 ns, 2.0717 ns/op
+IdleTarget 1: 16384 op, 33940 ns, 2.0715 ns/op
+IdleTarget 2: 16384 op, 52396 ns, 3.1980 ns/op
+IdleTarget 3: 16384 op, 38425 ns, 2.3453 ns/op
+IdleTarget 4: 16384 op, 38450 ns, 2.3468 ns/op
+IdleTarget 5: 16384 op, 38464 ns, 2.3477 ns/op
+IdleTarget 6: 16384 op, 47374 ns, 2.8915 ns/op
+IdleTarget 7: 16384 op, 38468 ns, 2.3479 ns/op
+IdleTarget 8: 16384 op, 38490 ns, 2.3492 ns/op
+IdleTarget 9: 16384 op, 38432 ns, 2.3457 ns/op
+IdleTarget 10: 16384 op, 34935 ns, 2.1323 ns/op
+MainWarmup 1: 16384 op, 260005087 ns, 15.8695 us/op
+MainWarmup 2: 16384 op, 254982030 ns, 15.5629 us/op
+MainWarmup 3: 16384 op, 254171513 ns, 15.5134 us/op
+MainWarmup 4: 16384 op, 253701998 ns, 15.4847 us/op
+MainWarmup 5: 16384 op, 248506640 ns, 15.1676 us/op
+MainWarmup 6: 16384 op, 248598522 ns, 15.1732 us/op
+MainWarmup 7: 16384 op, 255756135 ns, 15.6101 us/op
+MainWarmup 8: 16384 op, 251185633 ns, 15.3312 us/op
+MainWarmup 9: 16384 op, 260433904 ns, 15.8956 us/op
+MainTarget 1: 16384 op, 259198472 ns, 15.8202 us/op
+MainTarget 2: 16384 op, 262814834 ns, 16.0409 us/op
+MainTarget 3: 16384 op, 253323119 ns, 15.4616 us/op
+MainTarget 4: 16384 op, 248976619 ns, 15.1963 us/op
+MainTarget 5: 16384 op, 260875078 ns, 15.9226 us/op
+MainTarget 6: 16384 op, 257979587 ns, 15.7458 us/op
+MainTarget 7: 16384 op, 255257120 ns, 15.5797 us/op
+MainTarget 8: 16384 op, 253095537 ns, 15.4477 us/op
+MainTarget 9: 16384 op, 266541577 ns, 16.2684 us/op
+MainTarget 10: 16384 op, 249747401 ns, 15.2434 us/op
+Result 1: 16384 op, 259160015 ns, 15.8179 us/op
+Result 2: 16384 op, 262776377 ns, 16.0386 us/op
+Result 3: 16384 op, 253284662 ns, 15.4593 us/op
+Result 4: 16384 op, 248938162 ns, 15.1940 us/op
+Result 5: 16384 op, 260836621 ns, 15.9202 us/op
+Result 6: 16384 op, 257941130 ns, 15.7435 us/op
+Result 7: 16384 op, 255218663 ns, 15.5773 us/op
+Result 8: 16384 op, 253057080 ns, 15.4454 us/op
+Result 9: 16384 op, 266503120 ns, 16.2661 us/op
+Result 10: 16384 op, 249708944 ns, 15.2410 us/op
+Pilot 1: 4 op, 248092 ns, 62.0230 us/op
+Pilot 2: 8 op, 125581 ns, 15.6976 us/op
+Pilot 3: 16 op, 243810 ns, 15.2381 us/op
+Pilot 4: 32 op, 483504 ns, 15.1095 us/op
+Pilot 5: 64 op, 964011 ns, 15.0627 us/op
+Pilot 6: 128 op, 1929977 ns, 15.0779 us/op
+Pilot 7: 256 op, 3852759 ns, 15.0498 us/op
+Pilot 8: 512 op, 7702297 ns, 15.0435 us/op
+Pilot 9: 1024 op, 17081993 ns, 16.6816 us/op
+Pilot 10: 2048 op, 31117222 ns, 15.1940 us/op
+Pilot 11: 4096 op, 66551014 ns, 16.2478 us/op
+Pilot 12: 8192 op, 124952834 ns, 15.2530 us/op
+Pilot 13: 16384 op, 256005460 ns, 15.6253 us/op
+IdleWarmup 1: 16384 op, 36204 ns, 2.2097 ns/op
+IdleWarmup 2: 16384 op, 45979 ns, 2.8063 ns/op
+IdleWarmup 3: 16384 op, 33936 ns, 2.0713 ns/op
+IdleWarmup 4: 16384 op, 33937 ns, 2.0714 ns/op
+IdleWarmup 5: 16384 op, 33944 ns, 2.0718 ns/op
+IdleTarget 1: 16384 op, 33943 ns, 2.0717 ns/op
+IdleTarget 2: 16384 op, 33916 ns, 2.0701 ns/op
+IdleTarget 3: 16384 op, 38447 ns, 2.3466 ns/op
+IdleTarget 4: 16384 op, 39487 ns, 2.4101 ns/op
+IdleTarget 5: 16384 op, 38468 ns, 2.3479 ns/op
+IdleTarget 6: 16384 op, 38453 ns, 2.3470 ns/op
+IdleTarget 7: 16384 op, 38458 ns, 2.3473 ns/op
+IdleTarget 8: 16384 op, 38449 ns, 2.3467 ns/op
+IdleTarget 9: 16384 op, 36071 ns, 2.2016 ns/op
+IdleTarget 10: 16384 op, 38436 ns, 2.3459 ns/op
+MainWarmup 1: 16384 op, 253132644 ns, 15.4500 us/op
+MainWarmup 2: 16384 op, 253247309 ns, 15.4570 us/op
+MainWarmup 3: 16384 op, 284196056 ns, 17.3460 us/op
+MainWarmup 4: 16384 op, 288082632 ns, 17.5832 us/op
+MainWarmup 5: 16384 op, 257376436 ns, 15.7090 us/op
+MainTarget 1: 16384 op, 257321188 ns, 15.7056 us/op
+MainTarget 2: 16384 op, 257933868 ns, 15.7430 us/op
+MainTarget 3: 16384 op, 262159733 ns, 16.0010 us/op
+MainTarget 4: 16384 op, 255637538 ns, 15.6029 us/op
+MainTarget 5: 16384 op, 253551928 ns, 15.4756 us/op
+MainTarget 6: 16384 op, 260857746 ns, 15.9215 us/op
+MainTarget 7: 16384 op, 254099207 ns, 15.5090 us/op
+MainTarget 8: 16384 op, 253366516 ns, 15.4643 us/op
+MainTarget 9: 16384 op, 252462107 ns, 15.4091 us/op
+MainTarget 10: 16384 op, 254469526 ns, 15.5316 us/op
+Result 1: 16384 op, 257282740 ns, 15.7033 us/op
+Result 2: 16384 op, 257895420 ns, 15.7407 us/op
+Result 3: 16384 op, 262121285 ns, 15.9986 us/op
+Result 4: 16384 op, 255599090 ns, 15.6005 us/op
+Result 5: 16384 op, 253513480 ns, 15.4732 us/op
+Result 6: 16384 op, 260819298 ns, 15.9191 us/op
+Result 7: 16384 op, 254060759 ns, 15.5066 us/op
+Result 8: 16384 op, 253328068 ns, 15.4619 us/op
+Result 9: 16384 op, 252423659 ns, 15.4067 us/op
+Result 10: 16384 op, 254431078 ns, 15.5292 us/op
+
+* Statistics for Pilot
+Mean = 19.0503 us, StdError = 2.4740 us (12.99%); N = 26, StdDev = 12.6151 us
+Min = 15.0435 us, Q1 = 15.0627 us, Median = 15.2414 us, Q3 = 15.7368 us, Max = 62.0230 us
+IQR = 0.6741 us, LowerFence = 14.0516 us, UpperFence = 16.7479 us
+ConfidenceInterval = [14.2012 us; 23.8994 us] (CI 95%)
+
+
+* Statistics for IdleWarmup
+Mean = 2.1396 ns, StdError = 0.0493 ns (2.31%); N = 15, StdDev = 0.1911 ns
+Min = 2.0713 ns, Q1 = 2.0715 ns, Median = 2.0717 ns, Q3 = 2.0720 ns, Max = 2.8063 ns
+IQR = 0.0005 ns, LowerFence = 2.0706 ns, UpperFence = 2.0728 ns
+ConfidenceInterval = [2.0429 ns; 2.2363 ns] (CI 95%)
+
+
+* Statistics for IdleTarget
+Mean = 2.3605 ns, StdError = 0.0589 ns (2.49%); N = 20, StdDev = 0.2632 ns
+Min = 2.0701 ns, Q1 = 2.2734 ns, Median = 2.3468 ns, Q3 = 2.3479 ns, Max = 3.1980 ns
+IQR = 0.0745 ns, LowerFence = 2.1617 ns, UpperFence = 2.4596 ns
+ConfidenceInterval = [2.2452 ns; 2.4759 ns] (CI 95%)
+
+
+* Statistics for MainWarmup
+Mean = 15.7967 us, StdError = 0.1978 us (1.25%); N = 14, StdDev = 0.7400 us
+Min = 15.1676 us, Q1 = 15.4500 us, Median = 15.5381 us, Q3 = 15.8695 us, Max = 17.5832 us
+IQR = 0.4195 us, LowerFence = 14.8208 us, UpperFence = 16.4986 us
+ConfidenceInterval = [15.4090 us; 16.1843 us] (CI 95%)
+
+
+* Statistics for MainTarget
+Mean = 15.6545 us, StdError = 0.0621 us (0.4%); N = 20, StdDev = 0.2779 us
+Min = 15.1963 us, Q1 = 15.4629 us, Median = 15.5913 us, Q3 = 15.8709 us, Max = 16.2684 us
+IQR = 0.4079 us, LowerFence = 14.8511 us, UpperFence = 16.4827 us
+ConfidenceInterval = [15.5327 us; 15.7763 us] (CI 95%)
+
+
+* Statistics for Result
+Mean = 15.6522 us, StdError = 0.0621 us (0.4%); N = 20, StdDev = 0.2779 us
+Min = 15.1940 us, Q1 = 15.4606 us, Median = 15.5889 us, Q3 = 15.8685 us, Max = 16.2661 us
+IQR = 0.4079 us, LowerFence = 14.8487 us, UpperFence = 16.4804 us
+ConfidenceInterval = [15.5304 us; 15.7740 us] (CI 95%)
+
+*** Md5VsSha256_Sha256_Core ***
+* Raw *
+Pilot 1: 4 op, 286191 ns, 71.5478 us/op
+Pilot 2: 8 op, 194063 ns, 24.2579 us/op
+Pilot 3: 16 op, 377263 ns, 23.5789 us/op
+Pilot 4: 32 op, 749746 ns, 23.4296 us/op
+Pilot 5: 64 op, 1547029 ns, 24.1723 us/op
+Pilot 6: 128 op, 2987140 ns, 23.3370 us/op
+Pilot 7: 256 op, 5993027 ns, 23.4103 us/op
+Pilot 8: 512 op, 12874058 ns, 25.1446 us/op
+Pilot 9: 1024 op, 24795424 ns, 24.2143 us/op
+Pilot 10: 2048 op, 50028859 ns, 24.4282 us/op
+Pilot 11: 4096 op, 100207581 ns, 24.4647 us/op
+Pilot 12: 8192 op, 209922545 ns, 25.6253 us/op
+IdleWarmup 1: 8192 op, 19125 ns, 2.3346 ns/op
+IdleWarmup 2: 8192 op, 17027 ns, 2.0785 ns/op
+IdleWarmup 3: 8192 op, 17032 ns, 2.0791 ns/op
+IdleWarmup 4: 8192 op, 17038 ns, 2.0798 ns/op
+IdleWarmup 5: 8192 op, 17035 ns, 2.0795 ns/op
+IdleWarmup 6: 8192 op, 17041 ns, 2.0802 ns/op
+IdleTarget 1: 8192 op, 17040 ns, 2.0801 ns/op
+IdleTarget 2: 8192 op, 17028 ns, 2.0786 ns/op
+IdleTarget 3: 8192 op, 17515 ns, 2.1381 ns/op
+IdleTarget 4: 8192 op, 19923 ns, 2.4320 ns/op
+IdleTarget 5: 8192 op, 19273 ns, 2.3527 ns/op
+IdleTarget 6: 8192 op, 19286 ns, 2.3542 ns/op
+IdleTarget 7: 8192 op, 19318 ns, 2.3582 ns/op
+IdleTarget 8: 8192 op, 28248 ns, 3.4482 ns/op
+IdleTarget 9: 8192 op, 19305 ns, 2.3566 ns/op
+IdleTarget 10: 8192 op, 18098 ns, 2.2092 ns/op
+MainWarmup 1: 8192 op, 206951399 ns, 25.2626 us/op
+MainWarmup 2: 8192 op, 207861248 ns, 25.3737 us/op
+MainWarmup 3: 8192 op, 200682824 ns, 24.4974 us/op
+MainWarmup 4: 8192 op, 196271130 ns, 23.9589 us/op
+MainWarmup 5: 8192 op, 203220813 ns, 24.8072 us/op
+MainWarmup 6: 8192 op, 205606154 ns, 25.0984 us/op
+MainTarget 1: 8192 op, 195257426 ns, 23.8351 us/op
+MainTarget 2: 8192 op, 202113313 ns, 24.6720 us/op
+MainTarget 3: 8192 op, 198436046 ns, 24.2232 us/op
+MainTarget 4: 8192 op, 199893594 ns, 24.4011 us/op
+MainTarget 5: 8192 op, 196529645 ns, 23.9904 us/op
+MainTarget 6: 8192 op, 197193626 ns, 24.0715 us/op
+MainTarget 7: 8192 op, 199555187 ns, 24.3598 us/op
+MainTarget 8: 8192 op, 204196928 ns, 24.9264 us/op
+MainTarget 9: 8192 op, 201048346 ns, 24.5420 us/op
+MainTarget 10: 8192 op, 214424625 ns, 26.1749 us/op
+Result 1: 8192 op, 195238146.5 ns, 23.8328 us/op
+Result 2: 8192 op, 202094033.5 ns, 24.6697 us/op
+Result 3: 8192 op, 198416766.5 ns, 24.2208 us/op
+Result 4: 8192 op, 199874314.5 ns, 24.3987 us/op
+Result 5: 8192 op, 196510365.5 ns, 23.9881 us/op
+Result 6: 8192 op, 197174346.5 ns, 24.0691 us/op
+Result 7: 8192 op, 199535907.5 ns, 24.3574 us/op
+Result 8: 8192 op, 204177648.5 ns, 24.9240 us/op
+Result 9: 8192 op, 201029066.5 ns, 24.5397 us/op
+Result 10: 8192 op, 214405345.5 ns, 26.1725 us/op
+Pilot 1: 4 op, 294327 ns, 73.5818 us/op
+Pilot 2: 8 op, 200580 ns, 25.0725 us/op
+Pilot 3: 16 op, 389451 ns, 24.3407 us/op
+Pilot 4: 32 op, 775608 ns, 24.2378 us/op
+Pilot 5: 64 op, 1546286 ns, 24.1607 us/op
+Pilot 6: 128 op, 3144224 ns, 24.5643 us/op
+Pilot 7: 256 op, 6182278 ns, 24.1495 us/op
+Pilot 8: 512 op, 12702561 ns, 24.8097 us/op
+Pilot 9: 1024 op, 25793412 ns, 25.1889 us/op
+Pilot 10: 2048 op, 51903616 ns, 25.3436 us/op
+Pilot 11: 4096 op, 109280468 ns, 26.6798 us/op
+Pilot 12: 8192 op, 205689058 ns, 25.1085 us/op
+IdleWarmup 1: 8192 op, 29818 ns, 3.6399 ns/op
+IdleWarmup 2: 8192 op, 26273 ns, 3.2072 ns/op
+IdleWarmup 3: 8192 op, 26310 ns, 3.2117 ns/op
+IdleWarmup 4: 8192 op, 26316 ns, 3.2124 ns/op
+IdleWarmup 5: 8192 op, 23155 ns, 2.8265 ns/op
+IdleWarmup 6: 8192 op, 23131 ns, 2.8236 ns/op
+IdleWarmup 7: 8192 op, 23158 ns, 2.8269 ns/op
+IdleTarget 1: 8192 op, 20646 ns, 2.5203 ns/op
+IdleTarget 2: 8192 op, 17003 ns, 2.0756 ns/op
+IdleTarget 3: 8192 op, 21331 ns, 2.6039 ns/op
+IdleTarget 4: 8192 op, 20007 ns, 2.4423 ns/op
+IdleTarget 5: 8192 op, 19283 ns, 2.3539 ns/op
+IdleTarget 6: 8192 op, 19274 ns, 2.3528 ns/op
+IdleTarget 7: 8192 op, 19294 ns, 2.3552 ns/op
+IdleTarget 8: 8192 op, 19313 ns, 2.3575 ns/op
+IdleTarget 9: 8192 op, 19297 ns, 2.3556 ns/op
+IdleTarget 10: 8192 op, 19306 ns, 2.3567 ns/op
+MainWarmup 1: 8192 op, 198907289 ns, 24.2807 us/op
+MainWarmup 2: 8192 op, 206982703 ns, 25.2664 us/op
+MainWarmup 3: 8192 op, 203297957 ns, 24.8166 us/op
+MainWarmup 4: 8192 op, 205959116 ns, 25.1415 us/op
+MainWarmup 5: 8192 op, 217818799 ns, 26.5892 us/op
+MainTarget 1: 8192 op, 208980835 ns, 25.5104 us/op
+MainTarget 2: 8192 op, 206133201 ns, 25.1627 us/op
+MainTarget 3: 8192 op, 202155514 ns, 24.6772 us/op
+MainTarget 4: 8192 op, 197755466 ns, 24.1401 us/op
+MainTarget 5: 8192 op, 215592855 ns, 26.3175 us/op
+MainTarget 6: 8192 op, 199226503 ns, 24.3196 us/op
+MainTarget 7: 8192 op, 201650834 ns, 24.6156 us/op
+MainTarget 8: 8192 op, 202044324 ns, 24.6636 us/op
+MainTarget 9: 8192 op, 204661575 ns, 24.9831 us/op
+MainTarget 10: 8192 op, 204844689 ns, 25.0055 us/op
+Result 1: 8192 op, 208961533.5 ns, 25.5080 us/op
+Result 2: 8192 op, 206113899.5 ns, 25.1604 us/op
+Result 3: 8192 op, 202136212.5 ns, 24.6748 us/op
+Result 4: 8192 op, 197736164.5 ns, 24.1377 us/op
+Result 5: 8192 op, 215573553.5 ns, 26.3151 us/op
+Result 6: 8192 op, 199207201.5 ns, 24.3173 us/op
+Result 7: 8192 op, 201631532.5 ns, 24.6132 us/op
+Result 8: 8192 op, 202025022.5 ns, 24.6613 us/op
+Result 9: 8192 op, 204642273.5 ns, 24.9807 us/op
+Result 10: 8192 op, 204825387.5 ns, 25.0031 us/op
+
+* Statistics for Pilot
+Mean = 28.5354 us, StdError = 2.7732 us (9.72%); N = 24, StdDev = 13.5858 us
+Min = 23.3370 us, Q1 = 24.1665 us, Median = 24.4464 us, Q3 = 25.1668 us, Max = 73.5818 us
+IQR = 1.0002 us, LowerFence = 22.6662 us, UpperFence = 26.6671 us
+ConfidenceInterval = [23.0999 us; 33.9708 us] (CI 95%)
+
+
+* Statistics for IdleWarmup
+Mean = 2.6523 ns, StdError = 0.1549 ns (5.84%); N = 13, StdDev = 0.5584 ns
+Min = 2.0785 ns, Q1 = 2.0797 ns, Median = 2.8236 ns, Q3 = 3.2094 ns, Max = 3.6399 ns
+IQR = 1.1298 ns, LowerFence = 0.3850 ns, UpperFence = 4.9041 ns
+ConfidenceInterval = [2.3487 ns; 2.9559 ns] (CI 95%)
+
+
+* Statistics for IdleTarget
+Mean = 2.3791 ns, StdError = 0.0646 ns (2.71%); N = 20, StdDev = 0.2888 ns
+Min = 2.0756 ns, Q1 = 2.2809 ns, Median = 2.3554 ns, Q3 = 2.3951 ns, Max = 3.4482 ns
+IQR = 0.1141 ns, LowerFence = 2.1097 ns, UpperFence = 2.5663 ns
+ConfidenceInterval = [2.2525 ns; 2.5057 ns] (CI 95%)
+
+
+* Statistics for MainWarmup
+Mean = 25.0084 us, StdError = 0.2080 us (0.83%); N = 11, StdDev = 0.6898 us
+Min = 23.9589 us, Q1 = 24.4974 us, Median = 25.0984 us, Q3 = 25.2664 us, Max = 26.5892 us
+IQR = 0.7690 us, LowerFence = 23.3439 us, UpperFence = 26.4200 us
+ConfidenceInterval = [24.6008 us; 25.4161 us] (CI 95%)
+
+
+* Statistics for MainTarget
+Mean = 24.7296 us, StdError = 0.1490 us (0.6%); N = 20, StdDev = 0.6665 us
+Min = 23.8351 us, Q1 = 24.2714 us, Median = 24.6396 us, Q3 = 24.9943 us, Max = 26.3175 us
+IQR = 0.7229 us, LowerFence = 23.1871 us, UpperFence = 26.0786 us
+ConfidenceInterval = [24.4375 us; 25.0217 us] (CI 95%)
+
+
+* Statistics for Result
+Mean = 24.7272 us, StdError = 0.1490 us (0.6%); N = 20, StdDev = 0.6665 us
+Min = 23.8328 us, Q1 = 24.2690 us, Median = 24.6372 us, Q3 = 24.9919 us, Max = 26.3151 us
+IQR = 0.7229 us, LowerFence = 23.1847 us, UpperFence = 26.0762 us
+ConfidenceInterval = [24.4351 us; 25.0194 us] (CI 95%)
+

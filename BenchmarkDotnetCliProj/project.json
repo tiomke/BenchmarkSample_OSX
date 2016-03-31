@@ -1,0 +1,19 @@
+{
+    "version": "1.0.0-*",
+    "compilationOptions": {
+        "emitEntryPoint": true
+    },
+
+    "dependencies": {
+        "NETStandard.Library": "1.0.0-rc2-23811"
+    },
+
+    "frameworks": {
+        "dnxcore50": { 
+            "dependencies":{
+                "System.Security.Cryptography.Algorithms":"4.0.0-*",
+                "BenchmarkDotNet":"0.9.4-beta"
+            }
+        }
+    }
+}

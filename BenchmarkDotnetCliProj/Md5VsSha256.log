@@ -1,0 +1,560 @@
+// ***** BenchmarkRunner: Start   *****
+// Found benchmarks:
+//   Md5VsSha256_Md5_Core
+//   Md5VsSha256_Sha256_Core
+
+// **************************
+// Benchmark: Md5VsSha256_Md5_Core
+// *** Generate *** 
+// Result = Success
+// DirectoryPath = /Users/apple/DocBox/WorkSpace/DotNetOSX/Md5VsSha256_Md5_Core
+
+// *** Build ***
+[1m[33m/Users/apple/DocBox/WorkSpace/DotNetOSX/Md5VsSha256_Md5_Core/Program.cs(53,31): warning CS0169: The field 'Program.value' is never used[39m[22m
+// Result = Success
+
+// *** Execute ***
+// Launch: 1
+
+// BenchmarkDotNet=v0.9.4.0
+// OS=OSX
+// Processor=?, ProcessorCount=8
+// Frequency=1000000000 ticks, Resolution=1.0000 ns, Timer=HPET
+// CLR=CORE, Arch=64-bit RELEASE [RyuJIT]
+// JitModules=?
+
+Pilot 1: 4 op, 246661 ns, 61.6653 us/op
+Pilot 2: 8 op, 125894 ns, 15.7368 us/op
+Pilot 3: 16 op, 243448 ns, 15.2155 us/op
+Pilot 4: 32 op, 483222 ns, 15.1007 us/op
+Pilot 5: 64 op, 963126 ns, 15.0488 us/op
+Pilot 6: 128 op, 1925884 ns, 15.0460 us/op
+Pilot 7: 256 op, 3851377 ns, 15.0444 us/op
+Pilot 8: 512 op, 7711730 ns, 15.0620 us/op
+Pilot 9: 1024 op, 18302893 ns, 17.8739 us/op
+Pilot 10: 2048 op, 33344573 ns, 16.2815 us/op
+Pilot 11: 4096 op, 63040016 ns, 15.3906 us/op
+Pilot 12: 8192 op, 125285547 ns, 15.2936 us/op
+Pilot 13: 16384 op, 249769056 ns, 15.2447 us/op
+
+IdleWarmup 1: 16384 op, 36344 ns, 2.2183 ns/op
+IdleWarmup 2: 16384 op, 33948 ns, 2.0720 ns/op
+IdleWarmup 3: 16384 op, 33941 ns, 2.0716 ns/op
+IdleWarmup 4: 16384 op, 33939 ns, 2.0715 ns/op
+IdleWarmup 5: 16384 op, 33946 ns, 2.0719 ns/op
+IdleWarmup 6: 16384 op, 33943 ns, 2.0717 ns/op
+IdleWarmup 7: 16384 op, 33946 ns, 2.0719 ns/op
+IdleWarmup 8: 16384 op, 33942 ns, 2.0717 ns/op
+IdleWarmup 9: 16384 op, 33939 ns, 2.0715 ns/op
+IdleWarmup 10: 16384 op, 33943 ns, 2.0717 ns/op
+
+IdleTarget 1: 16384 op, 33940 ns, 2.0715 ns/op
+IdleTarget 2: 16384 op, 52396 ns, 3.1980 ns/op
+IdleTarget 3: 16384 op, 38425 ns, 2.3453 ns/op
+IdleTarget 4: 16384 op, 38450 ns, 2.3468 ns/op
+IdleTarget 5: 16384 op, 38464 ns, 2.3477 ns/op
+IdleTarget 6: 16384 op, 47374 ns, 2.8915 ns/op
+IdleTarget 7: 16384 op, 38468 ns, 2.3479 ns/op
+IdleTarget 8: 16384 op, 38490 ns, 2.3492 ns/op
+IdleTarget 9: 16384 op, 38432 ns, 2.3457 ns/op
+IdleTarget 10: 16384 op, 34935 ns, 2.1323 ns/op
+
+MainWarmup 1: 16384 op, 260005087 ns, 15.8695 us/op
+MainWarmup 2: 16384 op, 254982030 ns, 15.5629 us/op
+MainWarmup 3: 16384 op, 254171513 ns, 15.5134 us/op
+MainWarmup 4: 16384 op, 253701998 ns, 15.4847 us/op
+MainWarmup 5: 16384 op, 248506640 ns, 15.1676 us/op
+MainWarmup 6: 16384 op, 248598522 ns, 15.1732 us/op
+MainWarmup 7: 16384 op, 255756135 ns, 15.6101 us/op
+MainWarmup 8: 16384 op, 251185633 ns, 15.3312 us/op
+MainWarmup 9: 16384 op, 260433904 ns, 15.8956 us/op
+
+MainTarget 1: 16384 op, 259198472 ns, 15.8202 us/op
+MainTarget 2: 16384 op, 262814834 ns, 16.0409 us/op
+MainTarget 3: 16384 op, 253323119 ns, 15.4616 us/op
+MainTarget 4: 16384 op, 248976619 ns, 15.1963 us/op
+MainTarget 5: 16384 op, 260875078 ns, 15.9226 us/op
+MainTarget 6: 16384 op, 257979587 ns, 15.7458 us/op
+MainTarget 7: 16384 op, 255257120 ns, 15.5797 us/op
+MainTarget 8: 16384 op, 253095537 ns, 15.4477 us/op
+MainTarget 9: 16384 op, 266541577 ns, 16.2684 us/op
+MainTarget 10: 16384 op, 249747401 ns, 15.2434 us/op
+
+Result 1: 16384 op, 259160015 ns, 15.8179 us/op
+Result 2: 16384 op, 262776377 ns, 16.0386 us/op
+Result 3: 16384 op, 253284662 ns, 15.4593 us/op
+Result 4: 16384 op, 248938162 ns, 15.1940 us/op
+Result 5: 16384 op, 260836621 ns, 15.9202 us/op
+Result 6: 16384 op, 257941130 ns, 15.7435 us/op
+Result 7: 16384 op, 255218663 ns, 15.5773 us/op
+Result 8: 16384 op, 253057080 ns, 15.4454 us/op
+Result 9: 16384 op, 266503120 ns, 16.2661 us/op
+Result 10: 16384 op, 249708944 ns, 15.2410 us/op
+
+// Launch: 2
+
+// BenchmarkDotNet=v0.9.4.0
+// OS=OSX
+// Processor=?, ProcessorCount=8
+// Frequency=1000000000 ticks, Resolution=1.0000 ns, Timer=HPET
+// CLR=CORE, Arch=64-bit RELEASE [RyuJIT]
+// JitModules=?
+
+Pilot 1: 4 op, 248092 ns, 62.0230 us/op
+Pilot 2: 8 op, 125581 ns, 15.6976 us/op
+Pilot 3: 16 op, 243810 ns, 15.2381 us/op
+Pilot 4: 32 op, 483504 ns, 15.1095 us/op
+Pilot 5: 64 op, 964011 ns, 15.0627 us/op
+Pilot 6: 128 op, 1929977 ns, 15.0779 us/op
+Pilot 7: 256 op, 3852759 ns, 15.0498 us/op
+Pilot 8: 512 op, 7702297 ns, 15.0435 us/op
+Pilot 9: 1024 op, 17081993 ns, 16.6816 us/op
+Pilot 10: 2048 op, 31117222 ns, 15.1940 us/op
+Pilot 11: 4096 op, 66551014 ns, 16.2478 us/op
+Pilot 12: 8192 op, 124952834 ns, 15.2530 us/op
+Pilot 13: 16384 op, 256005460 ns, 15.6253 us/op
+
+IdleWarmup 1: 16384 op, 36204 ns, 2.2097 ns/op
+IdleWarmup 2: 16384 op, 45979 ns, 2.8063 ns/op
+IdleWarmup 3: 16384 op, 33936 ns, 2.0713 ns/op
+IdleWarmup 4: 16384 op, 33937 ns, 2.0714 ns/op
+IdleWarmup 5: 16384 op, 33944 ns, 2.0718 ns/op
+
+IdleTarget 1: 16384 op, 33943 ns, 2.0717 ns/op
+IdleTarget 2: 16384 op, 33916 ns, 2.0701 ns/op
+IdleTarget 3: 16384 op, 38447 ns, 2.3466 ns/op
+IdleTarget 4: 16384 op, 39487 ns, 2.4101 ns/op
+IdleTarget 5: 16384 op, 38468 ns, 2.3479 ns/op
+IdleTarget 6: 16384 op, 38453 ns, 2.3470 ns/op
+IdleTarget 7: 16384 op, 38458 ns, 2.3473 ns/op
+IdleTarget 8: 16384 op, 38449 ns, 2.3467 ns/op
+IdleTarget 9: 16384 op, 36071 ns, 2.2016 ns/op
+IdleTarget 10: 16384 op, 38436 ns, 2.3459 ns/op
+
+MainWarmup 1: 16384 op, 253132644 ns, 15.4500 us/op
+MainWarmup 2: 16384 op, 253247309 ns, 15.4570 us/op
+MainWarmup 3: 16384 op, 284196056 ns, 17.3460 us/op
+MainWarmup 4: 16384 op, 288082632 ns, 17.5832 us/op
+MainWarmup 5: 16384 op, 257376436 ns, 15.7090 us/op
+
+MainTarget 1: 16384 op, 257321188 ns, 15.7056 us/op
+MainTarget 2: 16384 op, 257933868 ns, 15.7430 us/op
+MainTarget 3: 16384 op, 262159733 ns, 16.0010 us/op
+MainTarget 4: 16384 op, 255637538 ns, 15.6029 us/op
+MainTarget 5: 16384 op, 253551928 ns, 15.4756 us/op
+MainTarget 6: 16384 op, 260857746 ns, 15.9215 us/op
+MainTarget 7: 16384 op, 254099207 ns, 15.5090 us/op
+MainTarget 8: 16384 op, 253366516 ns, 15.4643 us/op
+MainTarget 9: 16384 op, 252462107 ns, 15.4091 us/op
+MainTarget 10: 16384 op, 254469526 ns, 15.5316 us/op
+
+Result 1: 16384 op, 257282740 ns, 15.7033 us/op
+Result 2: 16384 op, 257895420 ns, 15.7407 us/op
+Result 3: 16384 op, 262121285 ns, 15.9986 us/op
+Result 4: 16384 op, 255599090 ns, 15.6005 us/op
+Result 5: 16384 op, 253513480 ns, 15.4732 us/op
+Result 6: 16384 op, 260819298 ns, 15.9191 us/op
+Result 7: 16384 op, 254060759 ns, 15.5066 us/op
+Result 8: 16384 op, 253328068 ns, 15.4619 us/op
+Result 9: 16384 op, 252423659 ns, 15.4067 us/op
+Result 10: 16384 op, 254431078 ns, 15.5292 us/op
+
+
+Mean = 15.6522 us, StdError = 0.0621 us (0.4%); N = 20, StdDev = 0.2779 us
+Min = 15.1940 us, Q1 = 15.4606 us, Median = 15.5889 us, Q3 = 15.8685 us, Max = 16.2661 us
+IQR = 0.4079 us, LowerFence = 14.8487 us, UpperFence = 16.4804 us
+ConfidenceInterval = [15.5304 us; 15.7740 us] (CI 95%)
+
+
+// **************************
+// Benchmark: Md5VsSha256_Sha256_Core
+// *** Generate *** 
+// Result = Success
+// DirectoryPath = /Users/apple/DocBox/WorkSpace/DotNetOSX/Md5VsSha256_Sha256_Core
+
+// *** Build ***
+[1m[33m/Users/apple/DocBox/WorkSpace/DotNetOSX/Md5VsSha256_Sha256_Core/Program.cs(53,31): warning CS0169: The field 'Program.value' is never used[39m[22m
+// Result = Success
+
+// *** Execute ***
+// Launch: 1
+
+// BenchmarkDotNet=v0.9.4.0
+// OS=OSX
+// Processor=?, ProcessorCount=8
+// Frequency=1000000000 ticks, Resolution=1.0000 ns, Timer=HPET
+// CLR=CORE, Arch=64-bit RELEASE [RyuJIT]
+// JitModules=?
+
+Pilot 1: 4 op, 286191 ns, 71.5478 us/op
+Pilot 2: 8 op, 194063 ns, 24.2579 us/op
+Pilot 3: 16 op, 377263 ns, 23.5789 us/op
+Pilot 4: 32 op, 749746 ns, 23.4296 us/op
+Pilot 5: 64 op, 1547029 ns, 24.1723 us/op
+Pilot 6: 128 op, 2987140 ns, 23.3370 us/op
+Pilot 7: 256 op, 5993027 ns, 23.4103 us/op
+Pilot 8: 512 op, 12874058 ns, 25.1446 us/op
+Pilot 9: 1024 op, 24795424 ns, 24.2143 us/op
+Pilot 10: 2048 op, 50028859 ns, 24.4282 us/op
+Pilot 11: 4096 op, 100207581 ns, 24.4647 us/op
+Pilot 12: 8192 op, 209922545 ns, 25.6253 us/op
+
+IdleWarmup 1: 8192 op, 19125 ns, 2.3346 ns/op
+IdleWarmup 2: 8192 op, 17027 ns, 2.0785 ns/op
+IdleWarmup 3: 8192 op, 17032 ns, 2.0791 ns/op
+IdleWarmup 4: 8192 op, 17038 ns, 2.0798 ns/op
+IdleWarmup 5: 8192 op, 17035 ns, 2.0795 ns/op
+IdleWarmup 6: 8192 op, 17041 ns, 2.0802 ns/op
+
+IdleTarget 1: 8192 op, 17040 ns, 2.0801 ns/op
+IdleTarget 2: 8192 op, 17028 ns, 2.0786 ns/op
+IdleTarget 3: 8192 op, 17515 ns, 2.1381 ns/op
+IdleTarget 4: 8192 op, 19923 ns, 2.4320 ns/op
+IdleTarget 5: 8192 op, 19273 ns, 2.3527 ns/op
+IdleTarget 6: 8192 op, 19286 ns, 2.3542 ns/op
+IdleTarget 7: 8192 op, 19318 ns, 2.3582 ns/op
+IdleTarget 8: 8192 op, 28248 ns, 3.4482 ns/op
+IdleTarget 9: 8192 op, 19305 ns, 2.3566 ns/op
+IdleTarget 10: 8192 op, 18098 ns, 2.2092 ns/op
+
+MainWarmup 1: 8192 op, 206951399 ns, 25.2626 us/op
+MainWarmup 2: 8192 op, 207861248 ns, 25.3737 us/op
+MainWarmup 3: 8192 op, 200682824 ns, 24.4974 us/op
+MainWarmup 4: 8192 op, 196271130 ns, 23.9589 us/op
+MainWarmup 5: 8192 op, 203220813 ns, 24.8072 us/op
+MainWarmup 6: 8192 op, 205606154 ns, 25.0984 us/op
+
+MainTarget 1: 8192 op, 195257426 ns, 23.8351 us/op
+MainTarget 2: 8192 op, 202113313 ns, 24.6720 us/op
+MainTarget 3: 8192 op, 198436046 ns, 24.2232 us/op
+MainTarget 4: 8192 op, 199893594 ns, 24.4011 us/op
+MainTarget 5: 8192 op, 196529645 ns, 23.9904 us/op
+MainTarget 6: 8192 op, 197193626 ns, 24.0715 us/op
+MainTarget 7: 8192 op, 199555187 ns, 24.3598 us/op
+MainTarget 8: 8192 op, 204196928 ns, 24.9264 us/op
+MainTarget 9: 8192 op, 201048346 ns, 24.5420 us/op
+MainTarget 10: 8192 op, 214424625 ns, 26.1749 us/op
+
+Result 1: 8192 op, 195238146.5 ns, 23.8328 us/op
+Result 2: 8192 op, 202094033.5 ns, 24.6697 us/op
+Result 3: 8192 op, 198416766.5 ns, 24.2208 us/op
+Result 4: 8192 op, 199874314.5 ns, 24.3987 us/op
+Result 5: 8192 op, 196510365.5 ns, 23.9881 us/op
+Result 6: 8192 op, 197174346.5 ns, 24.0691 us/op
+Result 7: 8192 op, 199535907.5 ns, 24.3574 us/op
+Result 8: 8192 op, 204177648.5 ns, 24.9240 us/op
+Result 9: 8192 op, 201029066.5 ns, 24.5397 us/op
+Result 10: 8192 op, 214405345.5 ns, 26.1725 us/op
+
+// Launch: 2
+
+// BenchmarkDotNet=v0.9.4.0
+// OS=OSX
+// Processor=?, ProcessorCount=8
+// Frequency=1000000000 ticks, Resolution=1.0000 ns, Timer=HPET
+// CLR=CORE, Arch=64-bit RELEASE [RyuJIT]
+// JitModules=?
+
+Pilot 1: 4 op, 294327 ns, 73.5818 us/op
+Pilot 2: 8 op, 200580 ns, 25.0725 us/op
+Pilot 3: 16 op, 389451 ns, 24.3407 us/op
+Pilot 4: 32 op, 775608 ns, 24.2378 us/op
+Pilot 5: 64 op, 1546286 ns, 24.1607 us/op
+Pilot 6: 128 op, 3144224 ns, 24.5643 us/op
+Pilot 7: 256 op, 6182278 ns, 24.1495 us/op
+Pilot 8: 512 op, 12702561 ns, 24.8097 us/op
+Pilot 9: 1024 op, 25793412 ns, 25.1889 us/op
+Pilot 10: 2048 op, 51903616 ns, 25.3436 us/op
+Pilot 11: 4096 op, 109280468 ns, 26.6798 us/op
+Pilot 12: 8192 op, 205689058 ns, 25.1085 us/op
+
+IdleWarmup 1: 8192 op, 29818 ns, 3.6399 ns/op
+IdleWarmup 2: 8192 op, 26273 ns, 3.2072 ns/op
+IdleWarmup 3: 8192 op, 26310 ns, 3.2117 ns/op
+IdleWarmup 4: 8192 op, 26316 ns, 3.2124 ns/op
+IdleWarmup 5: 8192 op, 23155 ns, 2.8265 ns/op
+IdleWarmup 6: 8192 op, 23131 ns, 2.8236 ns/op
+IdleWarmup 7: 8192 op, 23158 ns, 2.8269 ns/op
+
+IdleTarget 1: 8192 op, 20646 ns, 2.5203 ns/op
+IdleTarget 2: 8192 op, 17003 ns, 2.0756 ns/op
+IdleTarget 3: 8192 op, 21331 ns, 2.6039 ns/op
+IdleTarget 4: 8192 op, 20007 ns, 2.4423 ns/op
+IdleTarget 5: 8192 op, 19283 ns, 2.3539 ns/op
+IdleTarget 6: 8192 op, 19274 ns, 2.3528 ns/op
+IdleTarget 7: 8192 op, 19294 ns, 2.3552 ns/op
+IdleTarget 8: 8192 op, 19313 ns, 2.3575 ns/op
+IdleTarget 9: 8192 op, 19297 ns, 2.3556 ns/op
+IdleTarget 10: 8192 op, 19306 ns, 2.3567 ns/op
+
+MainWarmup 1: 8192 op, 198907289 ns, 24.2807 us/op
+MainWarmup 2: 8192 op, 206982703 ns, 25.2664 us/op
+MainWarmup 3: 8192 op, 203297957 ns, 24.8166 us/op
+MainWarmup 4: 8192 op, 205959116 ns, 25.1415 us/op
+MainWarmup 5: 8192 op, 217818799 ns, 26.5892 us/op
+
+MainTarget 1: 8192 op, 208980835 ns, 25.5104 us/op
+MainTarget 2: 8192 op, 206133201 ns, 25.1627 us/op
+MainTarget 3: 8192 op, 202155514 ns, 24.6772 us/op
+MainTarget 4: 8192 op, 197755466 ns, 24.1401 us/op
+MainTarget 5: 8192 op, 215592855 ns, 26.3175 us/op
+MainTarget 6: 8192 op, 199226503 ns, 24.3196 us/op
+MainTarget 7: 8192 op, 201650834 ns, 24.6156 us/op
+MainTarget 8: 8192 op, 202044324 ns, 24.6636 us/op
+MainTarget 9: 8192 op, 204661575 ns, 24.9831 us/op
+MainTarget 10: 8192 op, 204844689 ns, 25.0055 us/op
+
+Result 1: 8192 op, 208961533.5 ns, 25.5080 us/op
+Result 2: 8192 op, 206113899.5 ns, 25.1604 us/op
+Result 3: 8192 op, 202136212.5 ns, 24.6748 us/op
+Result 4: 8192 op, 197736164.5 ns, 24.1377 us/op
+Result 5: 8192 op, 215573553.5 ns, 26.3151 us/op
+Result 6: 8192 op, 199207201.5 ns, 24.3173 us/op
+Result 7: 8192 op, 201631532.5 ns, 24.6132 us/op
+Result 8: 8192 op, 202025022.5 ns, 24.6613 us/op
+Result 9: 8192 op, 204642273.5 ns, 24.9807 us/op
+Result 10: 8192 op, 204825387.5 ns, 25.0031 us/op
+
+
+Mean = 24.7272 us, StdError = 0.1490 us (0.6%); N = 20, StdDev = 0.6665 us
+Min = 23.8328 us, Q1 = 24.2690 us, Median = 24.6372 us, Q3 = 24.9919 us, Max = 26.3151 us
+IQR = 0.7229 us, LowerFence = 23.1847 us, UpperFence = 26.0762 us
+ConfidenceInterval = [24.4351 us; 25.0194 us] (CI 95%)
+
+
+// ***** BenchmarkRunner: Finish  *****
+
+// * Export *
+  BuildPlots.R
+  Md5VsSha256-measurements.csv
+  Md5VsSha256-report.csv
+  Md5VsSha256-report.txt
+
+// * Detailed results *
+Md5VsSha256_Md5_Core
+Mean = 15.6522 us, StdError = 0.0621 us (0.4%); N = 20, StdDev = 0.2779 us
+Min = 15.1940 us, Q1 = 15.4606 us, Median = 15.5889 us, Q3 = 15.8685 us, Max = 16.2661 us
+IQR = 0.4079 us, LowerFence = 14.8487 us, UpperFence = 16.4804 us
+ConfidenceInterval = [15.5304 us; 15.7740 us] (CI 95%)
+
+
+Md5VsSha256_Sha256_Core
+Mean = 24.7272 us, StdError = 0.1490 us (0.6%); N = 20, StdDev = 0.6665 us
+Min = 23.8328 us, Q1 = 24.2690 us, Median = 24.6372 us, Q3 = 24.9919 us, Max = 26.3151 us
+IQR = 0.7229 us, LowerFence = 23.1847 us, UpperFence = 26.0762 us
+ConfidenceInterval = [24.4351 us; 25.0194 us] (CI 95%)
+
+
+Total time: 00:00:34 (34.18 sec)
+
+// * Summary *
+
+BenchmarkDotNet=v0.9.4.0
+OS=OSX
+Processor=?, ProcessorCount=8
+Frequency=1000000000 ticks, Resolution=1.0000 ns, Timer=HPET
+HostCLR=CORE, Arch=64-bit RELEASE [RyuJIT]
+JitModules=?
+
+
+
+
+
+
+
+// ***** BenchmarkRunner: End *****
+s, Q1 = 15.9137 us, Median = 16.2221 us, Q3 = 16.7111 us, Max = 17.9086 us
+IQR = 0.7974 us, LowerFence = 14.7176 us, UpperFence = 17.9073 us
+ConfidenceInterval = [16.0717 us; 16.5725 us] (CI 95%)
+
+
+Md5VsSha256_Sha256_Core
+Mean = 25.7085 us, StdError = 0.1688 us (0.66%); N = 23, StdDev = 0.8096 us
+Min = 23.8187 us, Q1 = 25.3975 us, Median = 25.8265 us, Q3 = 26.1518 us, Max = 27.2767 us
+IQR = 0.7542 us, LowerFence = 24.2662 us, UpperFence = 27.2831 us
+ConfidenceInterval = [25.3776 us; 26.0394 us] (CI 95%)
+
+
+Total time: 00:00:39 (39.29 sec)
+
+// * Summary *
+
+BenchmarkDotNet=v0.9.4.0
+OS=OSX
+Processor=?, ProcessorCount=8
+Frequency=1000000000 ticks, Resolution=1.0000 ns, Timer=HPET
+HostCLR=CORE, Arch=64-bit RELEASE [RyuJIT]
+JitModules=?
+
+
+
+
+
+
+
+// ***** BenchmarkRunner: End *****
+256_Md5_Core
+Mean = 16.3700 us, StdError = 0.1301 us (0.79%); N = 32, StdDev = 0.7361 us
+Min = 15.5166 us, Q1 = 15.8759 us, Median = 16.1387 us, Q3 = 16.7134 us, Max = 17.9584 us
+IQR = 0.8375 us, LowerFence = 14.6198 us, UpperFence = 17.9696 us
+ConfidenceInterval = [16.1150 us; 16.6251 us] (CI 95%)
+
+
+Md5VsSha256_Sha256_Core
+Mean = 24.9553 us, StdError = 0.1386 us (0.56%); N = 20, StdDev = 0.6197 us
+Min = 24.0349 us, Q1 = 24.4416 us, Median = 24.9848 us, Q3 = 25.3070 us, Max = 26.2035 us
+IQR = 0.8654 us, LowerFence = 23.1434 us, UpperFence = 26.6052 us
+ConfidenceInterval = [24.6837 us; 25.2269 us] (CI 95%)
+
+
+Total time: 00:00:34 (34.36 sec)
+
+// * Summary *
+
+BenchmarkDotNet=v0.9.4.0
+OS=OSX
+Processor=?, ProcessorCount=8
+Frequency=1000000000 ticks, Resolution=1.0000 ns, Timer=HPET
+HostCLR=CORE, Arch=64-bit RELEASE [RyuJIT]
+JitModules=?
+
+
+
+
+
+
+
+// ***** BenchmarkRunner: End *****
+ts *
+Md5VsSha256_Md5_Core
+Mean = 16.5773 us, StdError = 0.1985 us (1.2%); N = 20, StdDev = 0.8879 us
+Min = 15.5326 us, Q1 = 15.9854 us, Median = 16.3681 us, Q3 = 16.9740 us, Max = 19.2732 us
+IQR = 0.9886 us, LowerFence = 14.5025 us, UpperFence = 18.4569 us
+ConfidenceInterval = [16.1882 us; 16.9665 us] (CI 95%)
+
+
+Md5VsSha256_Sha256_Core
+Mean = 26.0425 us, StdError = 0.2170 us (0.83%); N = 38, StdDev = 1.3379 us
+Min = 24.2842 us, Q1 = 25.0975 us, Median = 25.6071 us, Q3 = 26.8275 us, Max = 29.0425 us
+IQR = 1.7300 us, LowerFence = 22.5025 us, UpperFence = 29.4225 us
+ConfidenceInterval = [25.6171 us; 26.4679 us] (CI 95%)
+
+
+Total time: 00:00:40 (40.83 sec)
+
+// * Summary *
+
+BenchmarkDotNet=v0.9.4.0
+OS=OSX
+Processor=?, ProcessorCount=8
+Frequency=1000000000 ticks, Resolution=1.0000 ns, Timer=HPET
+HostCLR=CORE, Arch=64-bit RELEASE [RyuJIT]
+JitModules=?
+
+
+
+
+
+
+
+// ***** BenchmarkRunner: End *****
+19: 8192 op, 218956436 ns, 26.7281 us/op
+MainTarget 20: 8192 op, 205523326 ns, 25.0883 us/op
+MainTarget 21: 8192 op, 206762978 ns, 25.2396 us/op
+MainTarget 22: 8192 op, 210859968 ns, 25.7397 us/op
+MainTarget 23: 8192 op, 231545628 ns, 28.2648 us/op
+MainTarget 24: 8192 op, 223637980 ns, 27.2996 us/op
+MainTarget 25: 8192 op, 197188980 ns, 24.0709 us/op
+MainTarget 26: 8192 op, 212672518 ns, 25.9610 us/op
+MainTarget 27: 8192 op, 203128785 ns, 24.7960 us/op
+MainTarget 28: 8192 op, 208205304 ns, 25.4157 us/op
+MainTarget 29: 8192 op, 220798174 ns, 26.9529 us/op
+MainTarget 30: 8192 op, 217989223 ns, 26.6100 us/op
+MainTarget 31: 8192 op, 223239680 ns, 27.2509 us/op
+MainTarget 32: 8192 op, 214882533 ns, 26.2308 us/op
+MainTarget 33: 8192 op, 202949295 ns, 24.7741 us/op
+MainTarget 34: 8192 op, 208927960 ns, 25.5039 us/op
+MainTarget 35: 8192 op, 199152182 ns, 24.3106 us/op
+MainTarget 36: 8192 op, 217307073 ns, 26.5267 us/op
+
+Result 1: 8192 op, 219865069.5 ns, 26.8390 us/op
+Result 2: 8192 op, 239795516.5 ns, 29.2719 us/op
+Result 3: 8192 op, 240354128.5 ns, 29.3401 us/op
+Result 4: 8192 op, 232727710.5 ns, 28.4091 us/op
+Result 5: 8192 op, 242661228.5 ns, 29.6217 us/op
+Result 6: 8192 op, 222789130.5 ns, 27.1959 us/op
+Result 7: 8192 op, 224443732.5 ns, 27.3979 us/op
+Result 8: 8192 op, 215269093.5 ns, 26.2780 us/op
+Result 9: 8192 op, 234277768.5 ns, 28.5984 us/op
+Result 10: 8192 op, 255783547.5 ns, 31.2236 us/op
+Result 11: 8192 op, 239261334.5 ns, 29.2067 us/op
+Result 12: 8192 op, 233876018.5 ns, 28.5493 us/op
+Result 13: 8192 op, 212860172.5 ns, 25.9839 us/op
+Result 14: 8192 op, 216548106.5 ns, 26.4341 us/op
+Result 15: 8192 op, 220066379.5 ns, 26.8636 us/op
+Result 16: 8192 op, 211712488.5 ns, 25.8438 us/op
+Result 17: 8192 op, 221351205.5 ns, 27.0204 us/op
+Result 18: 8192 op, 219913018.5 ns, 26.8449 us/op
+Result 19: 8192 op, 218937128.5 ns, 26.7257 us/op
+Result 20: 8192 op, 205504018.5 ns, 25.0859 us/op
+Result 21: 8192 op, 206743670.5 ns, 25.2373 us/op
+Result 22: 8192 op, 210840660.5 ns, 25.7374 us/op
+Result 23: 8192 op, 231526320.5 ns, 28.2625 us/op
+Result 24: 8192 op, 223618672.5 ns, 27.2972 us/op
+Result 25: 8192 op, 197169672.5 ns, 24.0686 us/op
+Result 26: 8192 op, 212653210.5 ns, 25.9586 us/op
+Result 27: 8192 op, 203109477.5 ns, 24.7936 us/op
+Result 28: 8192 op, 208185996.5 ns, 25.4133 us/op
+Result 29: 8192 op, 220778866.5 ns, 26.9505 us/op
+Result 30: 8192 op, 217969915.5 ns, 26.6077 us/op
+Result 31: 8192 op, 223220372.5 ns, 27.2486 us/op
+Result 32: 8192 op, 214863225.5 ns, 26.2284 us/op
+Result 33: 8192 op, 202929987.5 ns, 24.7717 us/op
+Result 34: 8192 op, 208908652.5 ns, 25.5015 us/op
+Result 35: 8192 op, 199132874.5 ns, 24.3082 us/op
+Result 36: 8192 op, 217287765.5 ns, 26.5244 us/op
+
+
+Mean = 27.0105 us, StdError = 0.1922 us (0.71%); N = 64, StdDev = 1.5372 us
+Min = 24.0686 us, Q1 = 25.8996 us, Median = 26.8419 us, Q3 = 27.9171 us, Max = 31.2236 us
+IQR = 2.0175 us, LowerFence = 22.8732 us, UpperFence = 30.9434 us
+ConfidenceInterval = [26.6339 us; 27.3871 us] (CI 95%)
+
+
+// ***** BenchmarkRunner: Finish  *****
+
+// * Export *
+
+// * Detailed results *
+Md5VsSha256_Md5_Core
+Mean = 16.3801 us, StdError = 0.1414 us (0.86%); N = 20, StdDev = 0.6326 us
+Min = 15.3582 us, Q1 = 15.8396 us, Median = 16.2992 us, Q3 = 16.9735 us, Max = 17.4611 us
+IQR = 1.1339 us, LowerFence = 14.1387 us, UpperFence = 18.6744 us
+ConfidenceInterval = [16.1029 us; 16.6574 us] (CI 95%)
+
+
+Md5VsSha256_Sha256_Core
+Mean = 27.0105 us, StdError = 0.1922 us (0.71%); N = 64, StdDev = 1.5372 us
+Min = 24.0686 us, Q1 = 25.8996 us, Median = 26.8419 us, Q3 = 27.9171 us, Max = 31.2236 us
+IQR = 2.0175 us, LowerFence = 22.8732 us, UpperFence = 30.9434 us
+ConfidenceInterval = [26.6339 us; 27.3871 us] (CI 95%)
+
+
+Total time: 00:00:42 (42.02 sec)
+
+// * Summary *
+
+BenchmarkDotNet=v0.9.4.0
+OS=OSX
+Processor=?, ProcessorCount=8
+Frequency=1000000000 ticks, Resolution=1.0000 ns, Timer=HPET
+HostCLR=CORE, Arch=64-bit RELEASE [RyuJIT]
+JitModules=?
+
+
+
+
+
+
+
+// ***** BenchmarkRunner: End *****
