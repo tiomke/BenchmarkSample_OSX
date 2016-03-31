@@ -1,7 +1,15 @@
 # BenchmarkSample_OSX
-A simple presentation of benchmarking .NET Core via BenchmarkDotNet
+A simple presentation of benchmarking .NET Core via BenchmarkDotNet on OSX.
 
-## Abstract
+**Environment:**
+
+```
+BenchmarkDotNet=v0.9.4.0
+OS=OSX 10.10.2
+HostCLR=CORE, Arch=64-bit RELEASE [RyuJIT]
+```
+
+## Description
 
 > **Main Contents**    
 > - BenchmarkDotnetCliProj\
